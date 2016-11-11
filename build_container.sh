@@ -2,4 +2,4 @@
 
 FOLDER=$1
 
-docker build -t dataquestio/$FOLDER-starter -f $FOLDER/Dockerfile .
+docker build -t serviceds/$FOLDER-implisit -f $FOLDER/Dockerfile .
