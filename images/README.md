@@ -1,5 +1,6 @@
 The image serviceds/jupyter-implisit has the following package versions:
 
+```
 pip==9.0.1
 pandas==0.19.1
 numpy==1.11.2
@@ -32,6 +33,9 @@ validate_email==1.3
 phonenumbers==7.7.3
 zipcode==2.0.0
 usaddress==0.57
+```
 
 These packages were NOT included, but are now in the requirements file if it's ever rebuilt:
+```
 plotly
+```
