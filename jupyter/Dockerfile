@@ -42,4 +42,7 @@ ENV USER=ds
 VOLUME /home/ds/notebooks
 WORKDIR /home/ds/notebooks
 
+# Download NLTK datasets
+RUN cat /tmp/requirements/nltk.txt | xargs /opt/ds/bin/python -m nltk.downloader
+
 CMD ["/home/ds/run_ipython.sh"]
