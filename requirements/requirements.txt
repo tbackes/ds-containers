@@ -14,7 +14,6 @@ pymongo
 jupyter
 nltk
 gensim
-tensorflow
 spacy
 statsmodels
 networkx
@@ -35,3 +34,4 @@ validate_email
 phonenumbers
 zipcode
 usaddress
+https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.11.0-cp27-none-linux_x86_64.whl
