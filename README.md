@@ -13,3 +13,4 @@ An easy way to get started with data science, using Docker.  Containers that com
 * To load that image on a new machine, run `sudo docker load -i jupyter-implisit.image`
 * To see what images are loaded and available on your machine, run `sudo docker images`
 * To see which containers are currently running, run `sudo docker ps`
+* To close an open container, run `sudo docker rm -f <container-id>`
